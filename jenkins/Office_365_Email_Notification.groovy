@@ -19,7 +19,7 @@ echo foobar > ${WORKSPACE}/superimportantreport.txt
             }
             publishers {
                 extendedEmail {
-                    attachBuildLog(false)
+                    attachBuildLog(true)
                     attachmentPatterns('**/superimportantreport.txt')
                     compressBuildLog(true)
                     recipientList('mhart2012@gmail.com')
