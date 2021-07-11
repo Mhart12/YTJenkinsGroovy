@@ -1,4 +1,4 @@
-class Office365Email_Notification {
+class Office_365_Email_Notification {
     static void buildMyJob(def job) {
         job.with {
             description('Office 365 Email notification tutorial created by Groovy and JobDSL.')
