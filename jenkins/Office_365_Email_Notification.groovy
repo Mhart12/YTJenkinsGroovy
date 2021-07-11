@@ -22,6 +22,7 @@ echo foobar > ${WORKSPACE}/superimportantreport.txt
                     attachBuildLog(true)
                     attachmentPatterns('**/superimportantreport.txt')
                     compressBuildLog(true)
+                    contentType('text/html')
                     recipientList('mhart2012@gmail.com, monica.hart@vmlyr.com')
                     replyToList('noreply@gmail.com')
                     defaultSubject('[$BUILD_STATUS] - Office365_Relay_Job_Results - Build #$BUILD_ID')
