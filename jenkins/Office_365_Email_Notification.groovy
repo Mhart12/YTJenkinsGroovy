@@ -4,11 +4,11 @@ class Office_365_Email_Notification {
             description('Office 365 Email notification tutorial created by Groovy and JobDSL.')
             logRotator(10, 10, 1, -1)
             keepDependencies()
-            wrappers {
-                wrappers {
-                    preBuildCleanup()
-                }
-            }
+            // wrappers {
+            //     wrappers {
+            //         preBuildCleanup()
+            //     }
+            // }
             disabled(false)
             steps {
                 shell(
