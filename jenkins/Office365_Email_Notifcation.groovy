@@ -13,10 +13,7 @@ class Office365_Email_Notifcation {
             steps {
                 shell(
 '''
-SCRIPT_RESULTS_HOME=/Users/mhart/jenkinsgroovylibrarytemplate/job-seed-bucket
-
 echo foobar > ${WORKSPACE}/superimportantreport.txt
-
 '''
                 )
             }
